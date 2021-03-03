@@ -1,0 +1,78 @@
+#header{
+    width: 1000px;
+    height: 160px;
+    background-color:red;
+    margin-bottom: 5px;
+
+}
+#body{
+    background-color: yellowgreen;
+}
+#container{
+    margin: auto;
+    width: 1000px;
+   
+}
+#menu{
+    background-color: turquoise;
+    height: 50px;
+    margin-bottom: 5px;
+    
+
+}
+#menu1{
+    list-style: none;
+    position: relative;
+    padding: 0;
+    margin-left: 20px;
+    width: 100%;
+    height: 46px;
+    position: relative;
+    text-transform: uppercase;
+    float: left;
+    
+    font: 20px/22px 'UTMCafetaRegular';
+
+}
+#menu1 li{
+    float: left;
+    margin-left: 20px;
+    width: 30%;
+    border-radius: 10px;
+
+}
+#content{
+    
+    min-height: 1000px;
+    padding-left: 40px;
+    background-color: white;
+
+}
+a{
+    text-decoration: none;
+}
+#content1 div{
+    float: left;
+    width: 25%;
+    margin-bottom: 10px;
+    height: 300px;
+
+}
+#content>div{
+    margin-bottom: 10px;
+}
+#footter{
+    background-color: teal;
+    height: 90px;
+    text-align: center;
+    padding-top: 20px;
+}
+#content2 div{
+    float: left;
+    width: 25%;
+
+}
+#table{
+    width: 100%;
+    padding-left: 40px;
+}

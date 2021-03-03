@@ -1,0 +1,103 @@
+#Name{
+    color :#f00;
+}
+#Menu a{
+    text-decoration: none ;
+    color: red;
+    display: block;
+
+
+}
+#Menu a:hover{
+    color: chartreuse;
+}
+#Container{
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    
+    border-width: 3px;
+    border-style: solid;
+    border-color: #f00;
+    
+}
+#Header{
+    width: 1000px;
+    height: 173px;
+    border-width: 1px;
+    border-style: solid;
+    box-sizing: border-box;
+    background-image: url(images/layout/header_bg.jpg);
+    margin-bottom: 0px;
+
+}
+#bannder{
+    margin-left: 58px;
+}
+#Menu{
+    height: 50px;
+    background-image: url(images/layout/menu_bg.gif);
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 0px;
+
+}
+#Menu ul{
+    list-style: none;
+    margin: 0px;
+}
+#Menu ul li{
+    float: left;
+    line-height: 50px;
+    margin: 0px 20px;
+}
+.menu-divider{
+    background-image: url(images/layout/menu_divider.gif);
+    width: 2px;
+    
+}
+#left{
+    
+    float: left;
+    width: 173px;
+    height: 210px;
+    margin-top: 20px;
+    border-radius: 10px 10px 0px 0px;
+    line-height: 50%;
+    
+}
+#right{
+    
+    float: right;
+    width: 173px;
+    height: 210px;
+    margin-top: 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+#content{
+    background-color: rgb(197, 211, 198);
+    width: 560px;
+    height: 300px;
+    margin: 20px auto;
+}
+.title{
+    width: 173px;
+    height: 30px;
+    background-color: steelblue;
+    border-radius: 10px 10px 0px 0px;
+    line-height: 30px;
+   
+    
+}
+.a{
+    width: 173px;
+    height: 30px;
+    background-color: thistle;
+    
+}
+.b{
+    width: 173px;
+    height: 30px;
+    background-color: turquoise;
+    
+}
+
